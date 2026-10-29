@@ -6,23 +6,11 @@
     <string>com.cinegrade.pipeline</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/Naruto/Cinegrade_Worksp/.venv/bin/python</string>
-        <string>/Users/Naruto/Cinegrade_Worksp/daemon.py</string>
+        <string>/Users/Naruto/Cinegrade_Worksp/wrapper.sh</string>
     </array>
-    <key>WorkingDirectory</key>
-    <string>/Users/Naruto/Cinegrade_Worksp</string>
-    <key>StandardOutPath</key>
-    <string>/Users/Naruto/Cinegrade_Worksp/logs/pipeline_stdout.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/Naruto/Cinegrade_Worksp/logs/pipeline_stderr.log</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
-    <key>EnvironmentVariables</key>
-    <dict>
-        <key>PATH</key>
-        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
-    </dict>
 </dict>
 </plist>
