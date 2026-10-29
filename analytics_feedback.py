@@ -1,27 +1,35 @@
-import csv
-import os
+import json
+from pathlib import Path
 
-MATRIX_PATH = "dist/ab_hooks_matrix.csv"
-ANALYTICS_LOG = "dist/analytics_performance.csv"
+class HookFeedbackEngine:
+    def __init__(self, metrics_path: str = "config/hook_weights.json"):
+        self.metrics_path = Path(metrics_path)
+        self.metrics_path.parent.mkdir(exist_ok=True)
+        self.weights = self._load_weights()
 
-def init_analytics():
-    if not os.path.exists(ANALYTICS_LOG):
-        with open(ANALYTICS_LOG, mode='w', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow(["Timestamp", "Variant", "Clip", "Views", "EngagementRate", "Score"])
-        print("[ANALYTICS] Initialized analytics performance registry.")
+    def _load_weights(self) -> dict:
+        if self.metrics_path.exists():
+            with open(self.metrics_path, "r") as f:
+                return json.load(f)
+        return {
+            "fast_zoom": 1.0,
+            "cinematic_pan": 1.0,
+            "glitch_intro": 1.0,
+            "minimal_fade": 1.0
+        }
 
-def calculate_hook_scores():
-    """Reads performance data, scores variants, and prioritizes top hooks."""
-    print("[ANALYTICS] Processing A/B hook performance metrics...")
-    # Simulation logic for scoring hooks based on engagement
-    scored_hooks = [
-        ("Variant 2", "Stop scrolling if you want to master... in 10 seconds.", 9.4),
-        ("Variant 1", "Most creators don't realize... until it's too late.", 8.7),
-        ("Variant 3", "The exact workflow I use as a Cinegrade creator.", 7.9)
-    ]
-    print("[ANALYTICS] Top Performing Hook Variant ->", scored_hooks[0])
+    def update_weights(self, performance_data: dict):
+        """
+        performance_data format: {"fast_zoom": {"views": 12000, "retention": 0.65}, ...}
+        """
+        for hook, stats in performance_data.items():
+            score = (stats["views"] * 0.4) + (stats["retention"] * 10000 * 0.6)
+            current = self.weights.get(hook, 1.0)
+            # Exponential moving average adjustment
+            self.weights[hook] = round(current * 0.8 + (score / 10000) * 0.2, 3)
 
-if __name__ == "__main__":
-    init_analytics()
-    calculate_hook_scores()
+        with open(self.metrics_path, "w") as f:
+            json.dump(self.weights, f, indent=4)
+
+    def get_optimal_hook(self) -> str:
+        return max(self.weights, key=self.weights.get)
