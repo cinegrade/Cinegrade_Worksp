@@ -1,0 +1,413 @@
+=== [1/5] Running Social Distribution ===
+[2026-10-29 19:49:12] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 19:49:12] [INFO] Successfully loaded release manifest.
+[2026-10-29 19:49:12] [INFO] Target asset identified: graded_discord_live_test_v4_2026.mp4 (0.00 MB)
+[2026-10-29 19:49:12] [INFO] Preparing asynchronous TikTok dispatch for graded_discord_live_test_v4_2026.mp4...
+[2026-10-29 19:49:12] [INFO] Preparing asynchronous Instagram dispatch for graded_discord_live_test_v4_2026.mp4...
+[2026-10-29 19:49:12] [INFO] Preparing asynchronous YouTube Shorts dispatch for graded_discord_live_test_v4_2026.mp4...
+[2026-10-29 19:49:12] [INFO] Preparing asynchronous Pinterest dispatch for graded_discord_live_test_v4_2026.mp4...
+[2026-10-29 19:49:12] [INFO] TikTok payload and signature validated for graded_discord_live_test_v4_2026.mp4.
+[2026-10-29 19:49:12] [INFO] Instagram payload and signature validated for graded_discord_live_test_v4_2026.mp4.
+[2026-10-29 19:49:12] [INFO] YouTube Shorts payload and signature validated for graded_discord_live_test_v4_2026.mp4.
+[2026-10-29 19:49:12] [INFO] Pinterest payload and signature validated for graded_discord_live_test_v4_2026.mp4.
+[2026-10-29 19:49:12] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/graded_discord_live_test_v4_2026.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: graded_discord_live_test_v4_2026.mp4
+Platform: Instagram | Status: simulated_success | Asset: graded_discord_live_test_v4_2026.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: graded_discord_live_test_v4_2026.mp4
+Platform: Pinterest | Status: simulated_success | Asset: graded_discord_live_test_v4_2026.mp4
+Archive Status: Successfully moved graded_discord_live_test_v4_2026.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 26 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook URL not configured. Skipping remote notification.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 19:53:07] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 19:53:07] [INFO] Successfully loaded release manifest.
+[2026-10-29 19:53:07] [INFO] Target asset identified: graded_discord_live_test_v5_2026.mp4 (0.00 MB)
+[2026-10-29 19:53:07] [INFO] Preparing asynchronous TikTok dispatch for graded_discord_live_test_v5_2026.mp4...
+[2026-10-29 19:53:07] [INFO] Preparing asynchronous Instagram dispatch for graded_discord_live_test_v5_2026.mp4...
+[2026-10-29 19:53:07] [INFO] Preparing asynchronous YouTube Shorts dispatch for graded_discord_live_test_v5_2026.mp4...
+[2026-10-29 19:53:07] [INFO] Preparing asynchronous Pinterest dispatch for graded_discord_live_test_v5_2026.mp4...
+[2026-10-29 19:53:07] [INFO] TikTok payload and signature validated for graded_discord_live_test_v5_2026.mp4.
+[2026-10-29 19:53:07] [INFO] Instagram payload and signature validated for graded_discord_live_test_v5_2026.mp4.
+[2026-10-29 19:53:07] [INFO] YouTube Shorts payload and signature validated for graded_discord_live_test_v5_2026.mp4.
+[2026-10-29 19:53:07] [INFO] Pinterest payload and signature validated for graded_discord_live_test_v5_2026.mp4.
+[2026-10-29 19:53:07] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/graded_discord_live_test_v5_2026.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: graded_discord_live_test_v5_2026.mp4
+Platform: Instagram | Status: simulated_success | Asset: graded_discord_live_test_v5_2026.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: graded_discord_live_test_v5_2026.mp4
+Platform: Pinterest | Status: simulated_success | Asset: graded_discord_live_test_v5_2026.mp4
+Archive Status: Successfully moved graded_discord_live_test_v5_2026.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 27 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Traceback (most recent call last):
+  File "/Users/Naruto/Desktop/Cinegrade_Worksp/engine/webhook_notifier.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+=== [1/5] Running Social Distribution ===
+[2026-10-29 19:53:53] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 19:53:53] [INFO] Successfully loaded release manifest.
+[2026-10-29 19:53:53] [INFO] Target asset identified: graded_discord_live_test_v6_2026.mp4 (0.00 MB)
+[2026-10-29 19:53:54] [INFO] Preparing asynchronous TikTok dispatch for graded_discord_live_test_v6_2026.mp4...
+[2026-10-29 19:53:54] [INFO] Preparing asynchronous Instagram dispatch for graded_discord_live_test_v6_2026.mp4...
+[2026-10-29 19:53:54] [INFO] Preparing asynchronous YouTube Shorts dispatch for graded_discord_live_test_v6_2026.mp4...
+[2026-10-29 19:53:54] [INFO] Preparing asynchronous Pinterest dispatch for graded_discord_live_test_v6_2026.mp4...
+[2026-10-29 19:53:54] [INFO] TikTok payload and signature validated for graded_discord_live_test_v6_2026.mp4.
+[2026-10-29 19:53:54] [INFO] Instagram payload and signature validated for graded_discord_live_test_v6_2026.mp4.
+[2026-10-29 19:53:54] [INFO] YouTube Shorts payload and signature validated for graded_discord_live_test_v6_2026.mp4.
+[2026-10-29 19:53:54] [INFO] Pinterest payload and signature validated for graded_discord_live_test_v6_2026.mp4.
+[2026-10-29 19:53:54] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/graded_discord_live_test_v6_2026.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: graded_discord_live_test_v6_2026.mp4
+Platform: Instagram | Status: simulated_success | Asset: graded_discord_live_test_v6_2026.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: graded_discord_live_test_v6_2026.mp4
+Platform: Pinterest | Status: simulated_success | Asset: graded_discord_live_test_v6_2026.mp4
+Archive Status: Successfully moved graded_discord_live_test_v6_2026.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 28 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 19:55:37] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 19:55:37] [INFO] Successfully loaded release manifest.
+[2026-10-29 19:55:37] [INFO] Target asset identified: graded_trigger_test_2_keyframe.mp4 (0.03 MB)
+[2026-10-29 19:55:37] [INFO] Preparing asynchronous TikTok dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 19:55:37] [INFO] Preparing asynchronous Instagram dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 19:55:37] [INFO] Preparing asynchronous YouTube Shorts dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 19:55:37] [INFO] Preparing asynchronous Pinterest dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 19:55:38] [INFO] TikTok payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 19:55:38] [INFO] Instagram payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 19:55:38] [INFO] YouTube Shorts payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 19:55:38] [INFO] Pinterest payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 19:55:38] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/graded_trigger_test_2_keyframe.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Platform: Instagram | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Platform: Pinterest | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Archive Status: Successfully moved graded_trigger_test_2_keyframe.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 2 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 20:03:32] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 20:03:32] [INFO] Successfully loaded release manifest.
+[2026-10-29 20:03:32] [INFO] Target asset identified: live_production_test_clip.mp4 (0.00 MB)
+[2026-10-29 20:03:32] [INFO] Preparing asynchronous TikTok dispatch for live_production_test_clip.mp4...
+[2026-10-29 20:03:32] [INFO] Preparing asynchronous Instagram dispatch for live_production_test_clip.mp4...
+[2026-10-29 20:03:32] [INFO] Preparing asynchronous YouTube Shorts dispatch for live_production_test_clip.mp4...
+[2026-10-29 20:03:32] [INFO] Preparing asynchronous Pinterest dispatch for live_production_test_clip.mp4...
+[2026-10-29 20:03:32] [INFO] TikTok payload and signature validated for live_production_test_clip.mp4.
+[2026-10-29 20:03:32] [INFO] Instagram payload and signature validated for live_production_test_clip.mp4.
+[2026-10-29 20:03:32] [INFO] YouTube Shorts payload and signature validated for live_production_test_clip.mp4.
+[2026-10-29 20:03:32] [INFO] Pinterest payload and signature validated for live_production_test_clip.mp4.
+[2026-10-29 20:03:32] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/live_production_test_clip.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: live_production_test_clip.mp4
+Platform: Instagram | Status: simulated_success | Asset: live_production_test_clip.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: live_production_test_clip.mp4
+Platform: Pinterest | Status: simulated_success | Asset: live_production_test_clip.mp4
+Archive Status: Successfully moved live_production_test_clip.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 29 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 20:09:13] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 20:09:13] [INFO] Successfully loaded release manifest.
+[2026-10-29 20:09:13] [INFO] Target asset identified: test_drop.mp4 (0.00 MB)
+[2026-10-29 20:09:13] [INFO] Preparing asynchronous TikTok dispatch for test_drop.mp4...
+[2026-10-29 20:09:13] [INFO] Preparing asynchronous Instagram dispatch for test_drop.mp4...
+[2026-10-29 20:09:13] [INFO] Preparing asynchronous YouTube Shorts dispatch for test_drop.mp4...
+[2026-10-29 20:09:13] [INFO] Preparing asynchronous Pinterest dispatch for test_drop.mp4...
+[2026-10-29 20:09:14] [INFO] TikTok payload and signature validated for test_drop.mp4.
+[2026-10-29 20:09:14] [INFO] Instagram payload and signature validated for test_drop.mp4.
+[2026-10-29 20:09:14] [INFO] YouTube Shorts payload and signature validated for test_drop.mp4.
+[2026-10-29 20:09:14] [INFO] Pinterest payload and signature validated for test_drop.mp4.
+[2026-10-29 20:09:14] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/test_drop.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: test_drop.mp4
+Platform: Instagram | Status: simulated_success | Asset: test_drop.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: test_drop.mp4
+Platform: Pinterest | Status: simulated_success | Asset: test_drop.mp4
+Archive Status: Successfully moved test_drop.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 30 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 20:22:26] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 20:22:26] [INFO] Successfully loaded release manifest.
+[2026-10-29 20:22:26] [INFO] Target asset identified: vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4 (3.02 MB)
+[2026-10-29 20:22:26] [INFO] Preparing asynchronous TikTok dispatch for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4...
+[2026-10-29 20:22:26] [INFO] Preparing asynchronous Instagram dispatch for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4...
+[2026-10-29 20:22:26] [INFO] Preparing asynchronous YouTube Shorts dispatch for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4...
+[2026-10-29 20:22:26] [INFO] Preparing asynchronous Pinterest dispatch for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4...
+[2026-10-29 20:22:26] [INFO] TikTok payload and signature validated for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4.
+[2026-10-29 20:22:26] [INFO] Instagram payload and signature validated for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4.
+[2026-10-29 20:22:26] [INFO] YouTube Shorts payload and signature validated for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4.
+[2026-10-29 20:22:26] [INFO] Pinterest payload and signature validated for vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4.
+[2026-10-29 20:22:27] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4
+Platform: Instagram | Status: simulated_success | Asset: vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4
+Platform: Pinterest | Status: simulated_success | Asset: vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4
+Archive Status: Successfully moved vid_CHIDORI_8_music_LEFT_CYBERPUNK_SPEED_GLOW_BLUE_vertical.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 2 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 20:22:29] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 20:22:29] [INFO] Successfully loaded release manifest.
+[2026-10-29 20:22:29] [INFO] No clips found for distribution.
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 33 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 20:22:31] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 20:22:31] [INFO] Successfully loaded release manifest.
+[2026-10-29 20:22:31] [INFO] No clips found for distribution.
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 33 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 20:48:13] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 20:48:13] [INFO] Successfully loaded release manifest.
+[2026-10-29 20:48:13] [INFO] Target asset identified: graded_trigger_test_2_keyframe.mp4 (0.03 MB)
+[2026-10-29 20:48:14] [INFO] Preparing asynchronous TikTok dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 20:48:14] [INFO] Preparing asynchronous Instagram dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 20:48:14] [INFO] Preparing asynchronous YouTube Shorts dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 20:48:14] [INFO] Preparing asynchronous Pinterest dispatch for graded_trigger_test_2_keyframe.mp4...
+[2026-10-29 20:48:14] [INFO] TikTok payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 20:48:14] [INFO] Instagram payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 20:48:14] [INFO] YouTube Shorts payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 20:48:14] [INFO] Pinterest payload and signature validated for graded_trigger_test_2_keyframe.mp4.
+[2026-10-29 20:48:14] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/graded_trigger_test_2_keyframe.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Platform: Instagram | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Platform: Pinterest | Status: simulated_success | Asset: graded_trigger_test_2_keyframe.mp4
+Archive Status: Successfully moved graded_trigger_test_2_keyframe.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 2 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 21:01:01] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 21:01:01] [INFO] Successfully loaded release manifest.
+[2026-10-29 21:01:01] [INFO] Target asset identified: test_production_clip_vertical.mp4 (0.00 MB)
+[2026-10-29 21:01:01] [INFO] Preparing asynchronous TikTok dispatch for test_production_clip_vertical.mp4...
+[2026-10-29 21:01:01] [INFO] Preparing asynchronous Instagram dispatch for test_production_clip_vertical.mp4...
+[2026-10-29 21:01:01] [INFO] Preparing asynchronous YouTube Shorts dispatch for test_production_clip_vertical.mp4...
+[2026-10-29 21:01:01] [INFO] Preparing asynchronous Pinterest dispatch for test_production_clip_vertical.mp4...
+[2026-10-29 21:01:01] [INFO] TikTok payload and signature validated for test_production_clip_vertical.mp4.
+[2026-10-29 21:01:01] [INFO] Instagram payload and signature validated for test_production_clip_vertical.mp4.
+[2026-10-29 21:01:01] [INFO] YouTube Shorts payload and signature validated for test_production_clip_vertical.mp4.
+[2026-10-29 21:01:01] [INFO] Pinterest payload and signature validated for test_production_clip_vertical.mp4.
+[2026-10-29 21:01:02] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/test_production_clip_vertical.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: test_production_clip_vertical.mp4
+Platform: Instagram | Status: simulated_success | Asset: test_production_clip_vertical.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: test_production_clip_vertical.mp4
+Platform: Pinterest | Status: simulated_success | Asset: test_production_clip_vertical.mp4
+Archive Status: Successfully moved test_production_clip_vertical.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 34 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 21:05:53] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 21:05:53] [INFO] Successfully loaded release manifest.
+[2026-10-29 21:05:53] [INFO] Target asset identified: test_airdrop_shortcut.mp4 (0.00 MB)
+[2026-10-29 21:05:53] [INFO] Preparing asynchronous TikTok dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:05:53] [INFO] Preparing asynchronous Instagram dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:05:53] [INFO] Preparing asynchronous YouTube Shorts dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:05:53] [INFO] Preparing asynchronous Pinterest dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:05:54] [INFO] TikTok payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:05:54] [INFO] Instagram payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:05:54] [INFO] YouTube Shorts payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:05:54] [INFO] Pinterest payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:05:54] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/test_airdrop_shortcut.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Platform: Instagram | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Platform: Pinterest | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Archive Status: Successfully moved test_airdrop_shortcut.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 35 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 21:08:15] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 21:08:15] [INFO] Successfully loaded release manifest.
+[2026-10-29 21:08:15] [INFO] Target asset identified: test_airdrop_shortcut.mp4 (0.00 MB)
+[2026-10-29 21:08:15] [INFO] Preparing asynchronous TikTok dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:08:15] [INFO] Preparing asynchronous Instagram dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:08:15] [INFO] Preparing asynchronous YouTube Shorts dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:08:15] [INFO] Preparing asynchronous Pinterest dispatch for test_airdrop_shortcut.mp4...
+[2026-10-29 21:08:16] [INFO] TikTok payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:08:16] [INFO] Instagram payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:08:16] [INFO] YouTube Shorts payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:08:16] [INFO] Pinterest payload and signature validated for test_airdrop_shortcut.mp4.
+[2026-10-29 21:08:16] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/test_airdrop_shortcut.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Platform: Instagram | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Platform: Pinterest | Status: simulated_success | Asset: test_airdrop_shortcut.mp4
+Archive Status: Successfully moved test_airdrop_shortcut.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 35 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
+=== [1/5] Running Social Distribution ===
+[2026-10-29 21:11:21] [INFO] Starting Cinegrade Multi-Platform Async Distribution & Archiving...
+[2026-10-29 21:11:21] [INFO] Successfully loaded release manifest.
+[2026-10-29 21:11:21] [INFO] Target asset identified: live_production_test.mp4 (0.00 MB)
+[2026-10-29 21:11:21] [INFO] Preparing asynchronous TikTok dispatch for live_production_test.mp4...
+[2026-10-29 21:11:21] [INFO] Preparing asynchronous Instagram dispatch for live_production_test.mp4...
+[2026-10-29 21:11:21] [INFO] Preparing asynchronous YouTube Shorts dispatch for live_production_test.mp4...
+[2026-10-29 21:11:21] [INFO] Preparing asynchronous Pinterest dispatch for live_production_test.mp4...
+[2026-10-29 21:11:22] [INFO] TikTok payload and signature validated for live_production_test.mp4.
+[2026-10-29 21:11:22] [INFO] Instagram payload and signature validated for live_production_test.mp4.
+[2026-10-29 21:11:22] [INFO] YouTube Shorts payload and signature validated for live_production_test.mp4.
+[2026-10-29 21:11:22] [INFO] Pinterest payload and signature validated for live_production_test.mp4.
+[2026-10-29 21:11:22] [INFO] Archived distributed asset to /Users/Naruto/Desktop/Cinegrade_Worksp/dist/archive/2026-10/live_production_test.mp4
+
+--- DISTRIBUTION & ARCHIVING SUMMARY ---
+Platform: TikTok | Status: simulated_success | Asset: live_production_test.mp4
+Platform: Instagram | Status: simulated_success | Asset: live_production_test.mp4
+Platform: YouTube Shorts | Status: simulated_success | Asset: live_production_test.mp4
+Platform: Pinterest | Status: simulated_success | Asset: live_production_test.mp4
+Archive Status: Successfully moved live_production_test.mp4 to dist/archive/2026-10/
+-------------------------------------------
+
+Platform: threads | Endpoint: https://graph.threads.net/v1.0/me/threads | Status: simulated_success
+Platform: linkedin_shorts | Endpoint: https://api.linkedin.com/v2/videos | Status: simulated_success
+=== [2/5] Generating A/B Hook Matrix ===
+Generated clean A/B hook matrix for 36 asset(s) -> ab_hooks_matrix.csv
+=== [3/5] Syncing Archive to iCloud Drive ===
+Successfully synced Cinegrade archive state to iCloud Drive: /Users/Naruto/Library/Mobile Documents/com~apple~CloudDocs/Cinegrade_Backups
+=== [4/5] Sending Webhook Notification ===
+Webhook alert sent successfully.
+=== [5/5] Archiving Processed Clips ===
+=== Pipeline Lifecycle Completed Successfully ===
